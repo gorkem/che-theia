@@ -15,7 +15,7 @@ import { Production } from "../../src/production";
 import { Yarn } from "../../src/yarn";
 
 jest.mock("../../src/yarn");
-
+jest.setTimeout(10000);
 
 describe("Test production", () => {
 
